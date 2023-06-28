@@ -27,6 +27,10 @@
                     id="piano-asset"
                     src="assets/piano.gltf"
                 ></a-asset-item>
+                <a-asset-item
+                    id="bot-asset"
+                    src="assets/bot.gltf"
+                ></a-asset-item>
             </a-assets>
 
             <a-marker
@@ -63,7 +67,7 @@
                     id="bowser-model"
                     scale="0.010481636858162174 0.010481636858162174 0.010481636858162174"
                     animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
+                    gltf-model="#piano-asset"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
@@ -73,7 +77,7 @@
                 id="bot-marker"
                 type="pattern"
                 preset="custom"
-                url="assets/piano.patt"
+                url="assets/bot.patt"
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
@@ -83,7 +87,7 @@
                     id="bowser-model"
                     scale="0.010481636858162174 0.010481636858162174 0.010481636858162174"
                     animation-mixer="loop: repeat"
-                    gltf-model="#animated-asset"
+                    gltf-model="#bot-asset"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
