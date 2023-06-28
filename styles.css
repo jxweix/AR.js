@@ -1,11 +1,35 @@
-body{
+h1{
     text-align: center;
 }
 
 button{
+    /* text-align: center; */
     padding: 25px;
     margin: 35px;
 }
 table{
+    text-align: center;
     width: 100%;
+    margin: 10% 0 10% 0;
+}
+
+.container-lg{
+    padding: 5% 20% 0 20%;
+}
+
+.container-slide{
+    justify-content: center;
+    align-content: center;
+    padding: 0 20% 0 0;
+}
+
+.slideImg {
+    width: 980px;
+    overflow-x: scroll;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+img{
+    width: 650px;
 }
