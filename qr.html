@@ -35,11 +35,17 @@
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
             >
-            <a-image
-                    src="assets/marker.patt"
-                    width="300"
-                    height="300"
-            ></a-image>
+
+            </a-marker
+                id="animated-marker"
+                type="pattern"
+                preset="custom"
+                url="assets/piano.patt"
+                raycaster="objects: .clickable"
+                emitevents="true"
+                cursor="fuse: false; rayOrigin: mouse;"
+                id="markerB"
+            >
 
                 <a-entity
                     id="bowser-model"
