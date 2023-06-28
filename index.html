@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
+        <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
     <title>Document</title>
 </head>
 <body>
     <h1>Home</h1>
-    <ul>
-        <li><a href="qr.html"><button>Open Camera</button></a></li>
-        <li><a href="https://ar-js-org.github.io/studio/pages/marker/index.html"><button>Create Qr</button></a></li>
-    </ul>
+    <table>
+        <tr>
+            <td><a href="qr.html"><button>Open Camera</button></a></td>
+            <td><a href="https://ar-js-org.github.io/studio/pages/marker/index.html"><button>Create Qr</button></a></td>
+        </tr>
+    </table>
+    <h1>Test marker</h1>
+    <a-image src="assets/marker.patt" width="300"height="300"></a-image>
 </body>
 </html>

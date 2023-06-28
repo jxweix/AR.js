@@ -3,10 +3,9 @@ body{
 }
 
 button{
-    padding: 35px;
+    padding: 25px;
+    margin: 35px;
 }
-
-ul li{
-    display: inline-flex;
-    list-style: none;
+table{
+    width: 100%;
 }
