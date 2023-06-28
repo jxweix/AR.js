@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+button{
+    padding: 35px;
+}
+
+ul li{
+    display: inline-flex;
+    list-style: none;
+}
